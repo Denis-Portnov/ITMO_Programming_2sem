@@ -6,6 +6,6 @@ std::istream &operator>>(std::istream &input, CVector2D &vector2D) {
 }
 
 std::ostream &operator<<(std::ostream &output, const CVector2D &vector2D) {
-    output << "(" << vector2D.x << ";" << vector2D.y << ")";
+    output << "(" << vector2D.x << "; " << vector2D.y << ")";
     return output;
 }
