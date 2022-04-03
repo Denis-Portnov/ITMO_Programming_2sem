@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/denisportnov/Desktop/ITMO/Прога/2sem/labs/2/Menu.cpp
+Menu.h
+/Users/denisportnov/Desktop/ITMO/Прога/2sem/labs/2/Menu.h
+
+/Users/denisportnov/Desktop/ITMO/Прога/2sem/labs/2/Menu.h
+iostream
+-
+Stack.h
+/Users/denisportnov/Desktop/ITMO/Прога/2sem/labs/2/Stack.h
+
+/Users/denisportnov/Desktop/ITMO/Прога/2sem/labs/2/Stack.cpp
+Stack.h
+/Users/denisportnov/Desktop/ITMO/Прога/2sem/labs/2/Stack.h
+
+/Users/denisportnov/Desktop/ITMO/Прога/2sem/labs/2/Stack.h
+iostream
+-
+vector
+-
+
+/Users/denisportnov/Desktop/ITMO/Прога/2sem/labs/2/main.cpp
+iostream
+-
+Menu.h
+/Users/denisportnov/Desktop/ITMO/Прога/2sem/labs/2/Menu.h
+cstdlib
+-
+

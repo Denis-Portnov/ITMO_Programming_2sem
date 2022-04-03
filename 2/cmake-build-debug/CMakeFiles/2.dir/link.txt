@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++ -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/2.dir/main.cpp.o CMakeFiles/2.dir/Stack.cpp.o CMakeFiles/2.dir/Menu.cpp.o -o 2 

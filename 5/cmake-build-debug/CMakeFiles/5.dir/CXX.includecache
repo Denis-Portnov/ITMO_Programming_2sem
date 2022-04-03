@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/denisportnov/Desktop/ITMO/Прога/2sem/labs/5/Arr.h
+iostream
+-
+vector
+-
+
+/Users/denisportnov/Desktop/ITMO/Прога/2sem/labs/5/main.cpp
+iostream
+-
+pow_.h
+/Users/denisportnov/Desktop/ITMO/Прога/2sem/labs/5/pow_.h
+Arr.h
+/Users/denisportnov/Desktop/ITMO/Прога/2sem/labs/5/Arr.h
+
+/Users/denisportnov/Desktop/ITMO/Прога/2sem/labs/5/pow_.h
+iostream
+-
+string
+-
+
