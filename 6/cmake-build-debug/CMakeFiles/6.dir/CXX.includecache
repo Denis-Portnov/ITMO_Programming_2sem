@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/denisportnov/Desktop/ITMO/Прога/2sem/labs/6/iter.h
+iterator
+-
+iostream
+-
+
+/Users/denisportnov/Desktop/ITMO/Прога/2sem/labs/6/main.cpp
+iostream
+-
+vector
+-
+iter.h
+/Users/denisportnov/Desktop/ITMO/Прога/2sem/labs/6/iter.h
+array
+-
+
