@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/denisportnov/Desktop/ITMO/Прога/2sem/labs/7/cycle_buffer.h
+random_iterator.h
+/Users/denisportnov/Desktop/ITMO/Прога/2sem/labs/7/random_iterator.h
+
+/Users/denisportnov/Desktop/ITMO/Прога/2sem/labs/7/main.cpp
+iostream
+-
+algorithm
+-
+cycle_buffer.h
+/Users/denisportnov/Desktop/ITMO/Прога/2sem/labs/7/cycle_buffer.h
+
+/Users/denisportnov/Desktop/ITMO/Прога/2sem/labs/7/random_iterator.h
+iterator
+-
+
