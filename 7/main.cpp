@@ -40,5 +40,23 @@ int main() {
     sort(buffer.begin(), buffer.end());
     cout << "1 3 7: " << buffer[0] << " " << buffer[1] << " " << buffer[2] << "\n\n";
 
+    cout << "Проверка алгоритма: partition\n";
+    CycleBuffer<int> arr(10);
+    for (int i = 0; i < 10; i++) {
+        arr.push_back(i);
+    }
+    cout << "Изначальный буфер: ";
+    for (auto c: arr) {
+        cout << c << " ";
+    }
+    cout << '\n';
+
+    partition(arr.begin(), arr.end(), [](int i) { return i % 2 == 0; });
+    cout << "После применения partition: ";
+
+    for (auto c: arr) {
+        cout << c << " ";
+    }
+    cout << '\n';
     return 0;
 }
