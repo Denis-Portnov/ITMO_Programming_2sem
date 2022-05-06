@@ -106,10 +106,12 @@ public:
     }
 
     T &operator[](int i) {
-        if (i >= size || i < 0) {
-            std::cout << "\n";
-            throw std::out_of_range("Error");
+        try {
+            if (i >= size or i < 0) throw std::out_of_range("IndexError: list index out of range");
+            return container[i];
         }
-        return container[i];
+        catch (std::out_of_range &e) {
+            std::cout << e.what() << "\n";
+        }
     }
 };

@@ -26,7 +26,7 @@ public:
     //// Деструктор ////
     ~Iterator() = default;
 
-    //// Метод, возвращающий указательна элемент, к которому есть доступ по итератору ////
+    //// Метод, возвращающий указатель на элемент, к которому есть доступ по итератору ////
     pointer get_value() const {
         return value;
     }
@@ -68,18 +68,6 @@ public:
     reference operator*() {
         return *value;
     }
-
-    //// ХЗ зачем оно надо, так как выше есть подобная штука, но пусть будет, если что удалю) ////
-    pointer operator->() {
-        return value;
-    }
-
-    //// Присваивание значения ВОТ ЭТО ПРЯМ ВООБЩЕ ХЗ НАДО ИЛИ НЕТ ХАХА////
-//    Iterator &operator=(value_type new_value) {
-//        value = new_value;
-//        return *this;
-//    }
-
 
     //// Операторы += и -= ////
     Iterator &operator+=(difference_type n) {
