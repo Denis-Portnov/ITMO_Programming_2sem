@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/denisportnov/Desktop/ITMO/Прога/2sem/labs/8/UserDialogue.cpp
+UserDialogue.h
+/Users/denisportnov/Desktop/ITMO/Прога/2sem/labs/8/UserDialogue.h
+
+/Users/denisportnov/Desktop/ITMO/Прога/2sem/labs/8/UserDialogue.h
+iostream
+/Users/denisportnov/Desktop/ITMO/Прога/2sem/labs/8/iostream
+automat.h
+/Users/denisportnov/Desktop/ITMO/Прога/2sem/labs/8/automat.h
+fstream
+/Users/denisportnov/Desktop/ITMO/Прога/2sem/labs/8/fstream
+
+/Users/denisportnov/Desktop/ITMO/Прога/2sem/labs/8/automat.h
+turns.h
+/Users/denisportnov/Desktop/ITMO/Прога/2sem/labs/8/turns.h
+
+/Users/denisportnov/Desktop/ITMO/Прога/2sem/labs/8/cube.h
+vector
+-
+string
+-
+ctime
+-
+cstdio
+-
+fstream
+-
+set
+-
+
+/Users/denisportnov/Desktop/ITMO/Прога/2sem/labs/8/turns.h
+cube.h
+/Users/denisportnov/Desktop/ITMO/Прога/2sem/labs/8/cube.h
+
